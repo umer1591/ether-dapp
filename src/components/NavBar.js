@@ -44,7 +44,7 @@ export default function NavBar() {
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <NextLink href="/">
-            <IconButton icon={<Logo />} variant={"ghost"}></IconButton>
+            <Text fontWeight="bold" fontSize="xl">MyDapp</Text>
           </NextLink>
 
           <Flex alignItems={"center"}>
@@ -68,10 +68,10 @@ export default function NavBar() {
                   <NextLink href="/">
                     <MenuItem>Home</MenuItem>
                   </NextLink>
-                  <NextLink href="/about">
+                  <NextLink href="/project">
                     <MenuItem>About</MenuItem>
                   </NextLink>
-                  <NextLink href="/play">
+                  <NextLink href="/start">
                     <MenuItem>Play</MenuItem>
                   </NextLink>
                 </MenuList>
