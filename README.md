@@ -1,4 +1,5 @@
-# EthRPS
+> ⚠️ This is a **custom-modified version** of a Rock-Paper-Scissors Ethereum DApp. Major bug fixes, frontend integration, and smart contract adjustments were made by **Muhammad Umer Farooq**. This version is intended for educational and portfolio use only.
+
 
 A simple, decentralized rock paper scissors betting game that runs on the Ethereum blockchain. The application is currently hosted on Vercel [here](https://eth-rps.vercel.app/) and the contract is deployed to both the Ropsten and Arbitrum Rinkeby test networks.
 
