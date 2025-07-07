@@ -44,6 +44,10 @@ export default function Footer() {
       color={useColorModeValue("gray.700", "gray.200")}
     >
       <Container
+          <p style={{ fontSize: "12px", marginTop: "10px" }}>
+  Customized by <strong>Muhammad Umer Farooq</strong> — Portfolio Use Only.
+</p>
+
         as={Stack}
         maxW={"6xl"}
         py={4}
